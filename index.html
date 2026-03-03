@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nehm HOUNGA - Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        // Check for saved user preference on load to avoid FOUC
+        const currentTheme = localStorage.getItem('theme');
+        if (currentTheme === 'dark-mode' || (!currentTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Nehm Hounga<br></h1>
+                <p class="hero-subtitle">Software Developer Engineer |🔹Amazon Certified |<br>Java Specialist - AWS
+                    Ecosystem | Google Cloud Innovator |
+                    Consultant Solution Architect </p>
+                <p class="hero-text">Building resilient software solutions at the intersection of cloud computing and
+                    software engineering. Focused on scalable architectures, distributed systems, and delivering
+                    impactful solutions within AWS and Google Cloud environments.</p>
+                <div class="hero-actions">
+                    <button class="btn-primary" id="btn-view-cv">View CV</button>
+                    <a href="https://t.me/Nehm00" class="btn-outline">Contact on Telegram Direct!</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Nehm12"><i class="fas fa-code-branch"></i></a>
+                    <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#contact"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/nehm.jpeg" alt="Nehm Hounga" class="hero-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a Software Development Engineer specialized in Java and cloud-native architectures, with strong
+                    expertise in the AWS ecosystem and modern scalable systems design. As an Amazon Certified
+                    professional and Google Cloud Innovator, I focus on building reliable, high-performance solutions
+                    that solve real-world business challenges.With experience in backend engineering, distributed
+                    systems, and solution architecture, I design and develop applications that are secure, scalable, and
+                    optimized for cloud environments. My work combines solid software engineering principles with
+                    strategic thinking to deliver efficient and sustainable technology solutions.</p>
+                <br>
+                <p>Based in Cotonou, Republic of Benin, I collaborate as a Consultant Solution Architect, helping
+                    organizations transform ideas into robust digital products while leveraging cloud technologies and
+                    best engineering practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="services-grid">
+
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Backend Engineering</h3>
+                        <p class="service-desc">Designing robust and scalable server-side architectures</p>
+                        <div class="service-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">SpringBoot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Data Engineering</h3>
+                        <p class="service-desc">Designing and optimizing database architectures</p>
+                        <div class="service-tags">
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Oracle</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Cloud Architecture</h3>
+                        <p class="service-desc">Deploying and managing cloud infrastructure</p>
+                        <div class="service-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Google Cloud</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="far fa-comment-dots"></i></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Prompt Engineering</h3>
+                        <p class="service-desc">Crafting effective prompts for AI models to achieve desired outcomes</p>
+                        <div class="service-tags">
+                            <span class="tag">GPT-3</span>
+                            <span class="tag">ChatGPT</span>
+                            <span class="tag">Prompt Design</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Gemini</span>
+                            <span class="tag">etc..</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile"></i></div>
+                    <div class="service-content">
+                        <h3 class="service-title">Mobile Development </h3>
+                        <p class="service-desc">Building mobile applications for iOS and Android</p>
+                        <div class="service-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">Swift</span>
+                            <span class="tag">Kotlin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills & Expertise Section -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+
+                <!-- Programming Languages -->
+                <div class="skill-card">
+                    <h3 class="skill-card-title">Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Javascript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Php</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-card">
+                    <h3 class="skill-card-title">Frameworks</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Laravel</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SpringBoot</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>FastAPI</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Django</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-card">
+                    <h3 class="skill-card-title">Tools & Platforms</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Linux</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Google Cloud Platform</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-card">
+                    <h3 class="skill-card-title">Databases</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MongoDB</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Redis</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PostgreSQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other -->
+                <div class="skill-card">
+                    <h3 class="skill-card-title">Other</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Q&A Testing</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>DevOps</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Agile Scrum</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="images/project1.png" alt="NovaTech Vision Website" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">NovaTech Vision</h3>
+                        <p class="project-desc">A full Backend-Frontend website for NovaTech Vision, a company that
+                            specializes in IT solutions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue Js</span>
+                            <span class="tag">Laravel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://novatechvision.com/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="images/PRoject2.png" alt="
+                    AgriTwin" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">AgriTwin</h3>
+                        <p class="project-desc">AgriTwin a digital agriculture platform,
+                            PWA available online that transforms every farm into a digital twin
+                            intelligent, usable even on a simple smartphone.
+                            More productive, sustainable and resilient agriculture thanks to satellite data.</p>
+                        <div class="project-tags">
+                            <span class="tag">React.Js</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://agritwin.vercel.app/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="images/speedX.png" alt="peedX" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">SpeedX</h3>
+                        <p class="project-desc">Creation of an application to facilitate invoice entry for the financial
+                            sector.
+                            Automating financial flows, tracking transactions and generating accurate reports for
+                            users.
+                            Implementation of an intuitive interface to simplify accounting operations and
+                            improve efficiency.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Sqlite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://speedx-eta.vercel.app/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="images/project4.png" alt="AI4BMI" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">AI4BMI</h3>
+                        <p class="project-desc">A complete platform for managing industrial equipment and e-commerce for
+                            the Bénin Moto Industry (BMI) factory.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">FLutter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://ai4bmi.cabinet-xaviertermeau.com/" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <img src="images/project5.png" alt="CampusConnect" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">CampusConnect </h3>
+                        <p class="project-desc">The university platform
+                            that makes academic life easier. University announcements, room reservations, collaborative
+                            workspace.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <img src="images/project6.png" alt="BMI Shop" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">BMI Shop </h3>
+                        <p class="project-desc">Mobile store for auto & motorcycle parts. Complete journey: catalog,
+                            shopping cart, checkout, and Mobile Money payment (FedaPay).</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <img src="images/project7.png" alt="KiFood Mobile" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">KiFood Mobile</h3>
+                        <p class="project-desc">Mobile App for food delivery in Bénin.</p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Project 8 -->
+                <div class="project-card">
+                    <img src="images/project8.png" alt="High School LTC Manage APP" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">High School LTC Manage APP</h3>
+                        <p class="project-desc">High School LTC Manage APP is a full web application Backend-Frontend for managing high school students, teachers, and courses.</p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/LTC" class="project-link"><i
+                             class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card">
+                    <img src="images/project9.png" alt="House of Transformation " class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">House of Transformation</h3>
+                        <p class="project-desc"> House of Transformation is a spiritual community website   </p>
+                        <div class="project-tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">mysql</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://maisondelatransformation.netlify.app/" class="project-link"><i
+                             class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-wrapper">
+
+                <div class="contact-form-container">
+                    <form class="contact-form" action="https://formspree.io/f/meokjrbq" method="post" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-container">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Cotonou, Littoral, Republic of Benin</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+229 0153538663</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="far fa-envelope"></i>
+                        <span>exaucehounga@yahoo.com</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Terminal CV Modal -->
+    <div class="terminal-overlay" id="terminal-modal">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="t-btn t-close" id="btn-close-terminal"></span>
+                    <span class="t-btn t-minimize"></span>
+                    <span class="t-btn t-maximize"></span>
+                </div>
+                <div class="terminal-title">bash - nehm@portfolio:~</div>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+                <!-- Content will be injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Document Preview Modal -->
+    <div class="doc-overlay" id="doc-modal">
+        <div class="doc-window">
+            <div class="doc-header">
+                <h3><i class="far fa-file-pdf"></i> Nehm_CV.pdf</h3>
+                <button class="doc-close-btn" id="btn-close-doc"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="doc-body" style="padding: 0; display: flex; flex-direction: column; height: 100%;">
+                <div class="doc-preview-iframe" style="flex-grow: 1; width: 100%; overflow: hidden;">
+                    <iframe src="Nehm_CV.pdf#toolbar=0" style="width: 100%; height: 100%; border: none;"
+                        title="Resume Preview">
+                        <p>It appears your browser does not support PDFs. <a href="Nehm_CV.pdf" download>Download the
+                                PDF</a> instead.</p>
+                    </iframe>
+                </div>
+                <div class="doc-actions"
+                    style="padding: 15px; text-align: center; border-top: 1px solid var(--border-color); background-color: var(--bg-white);">
+                    <a href="Nehm_CV.pdf" class="btn-primary" download><i class="fas fa-download"></i> Download Full
+                        PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+
+                <div class="footer-col brand-col">
+                    <h3 class="footer-name">Nehm HOUNGA</h3>
+                    <p class="footer-roles">Software Engineer | Solutions Architect | Consultant</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Nehm12"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href=mailto:exaucehounga@yahoo.com><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col contact-col">
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-contact-list">
+                        <li>Cotonou, Littoral</li>
+                        <li>Republic of Benin</li>
+                        <li>exaucehounga@yahoo.com</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nehm HOUNGA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+            const icon = themeToggle.querySelector('i');
+
+            if (body.classList.contains('dark-mode')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            }
+
+            themeToggle.addEventListener('click', function () {
+                body.classList.toggle('dark-mode');
+                if (body.classList.contains('dark-mode')) {
+                    icon.classList.remove('fa-moon');
+                    icon.classList.add('fa-sun');
+                    localStorage.setItem('theme', 'dark-mode');
+                } else {
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
+                    localStorage.setItem('theme', 'light-mode');
+                }
+            });
+
+            /* =========================================================================
+               Terminal CV Logic
+               ========================================================================= */
+            const btnViewCv = document.getElementById('btn-view-cv');
+            const terminalModal = document.getElementById('terminal-modal');
+            const btnCloseTerminal = document.getElementById('btn-close-terminal');
+            const terminalBody = document.getElementById('terminal-body');
+
+            const cvSequence = [
+                { text: "> fetching Nehm_CV.json...", delay: 800, type: 'command' },
+                { text: "> Loading skills... [██████████] 100%", delay: 1200, type: 'success' },
+                { text: "> Analyzing profile...", delay: 900, type: 'command' },
+                { text: "PROFILE: Software Developer Engineer | Amazon Certified", delay: 400, type: 'highlight' },
+                { text: "EXPERTISE: Java, AWS Ecosystem, GCP, Backend Arch.", delay: 400, type: 'highlight' },
+                { text: "> Generating document preview...", delay: 800, type: 'command' },
+                { text: "Ready.", delay: 200, type: 'success' },
+                { text: "Action:", delay: 0, type: 'action', html: '<button id="btn-open-doc" class="terminal-action-btn"><i class="fas fa-eye"></i> View & Download PDF</button>' }
+            ];
+
+            let isTyping = false;
+
+            function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+
+            async function typeLine(item) {
+                const lineDiv = document.createElement('div');
+                lineDiv.className = 'terminal-line';
+
+                // Setup prefix if it's a command
+                if (item.text.startsWith('> ')) {
+                    const promptSpan = document.createElement('span');
+                    promptSpan.className = 'terminal-prompt';
+                    promptSpan.textContent = 'nehm@portfolio:~$';
+                    lineDiv.appendChild(promptSpan);
+                    item.text = item.text.substring(2);
+                }
+
+                const textSpan = document.createElement('span');
+                textSpan.className = 'terminal-' + (item.type || 'text');
+                lineDiv.appendChild(textSpan);
+
+                // Setup cursor
+                const cursor = document.createElement('span');
+                cursor.className = 'cursor';
+                lineDiv.appendChild(cursor);
+
+                terminalBody.appendChild(lineDiv);
+                terminalBody.scrollTop = terminalBody.scrollHeight;
+
+                if (item.html) {
+                    textSpan.innerHTML = item.html;
+                } else {
+                    // Typewriter effect
+                    for (let i = 0; i < item.text.length; i++) {
+                        textSpan.textContent += item.text.charAt(i);
+                        await sleep(30); // Typing speed
+                    }
+                }
+
+                // Remove cursor at end of line typing
+                cursor.remove();
+                await sleep(item.delay);
+            }
+
+            async function runTerminalSequence() {
+                if (isTyping) return;
+                isTyping = true;
+                terminalBody.innerHTML = ''; // Clear previous
+
+                for (const item of cvSequence) {
+                    // Stop if modal was closed before finishing
+                    if (!terminalModal.classList.contains('active')) break;
+                    await typeLine(item);
+                }
+
+                if (terminalModal.classList.contains('active')) {
+                    // Add final blinking cursor standalone line
+                    const finalLineDiv = document.createElement('div');
+                    finalLineDiv.className = 'terminal-line';
+                    finalLineDiv.innerHTML = '<span class="terminal-prompt">nehm@portfolio:~$</span><span class="cursor"></span>';
+                    terminalBody.appendChild(finalLineDiv);
+                    terminalBody.scrollTop = terminalBody.scrollHeight;
+                }
+
+                isTyping = false;
+            }
+
+            btnViewCv.addEventListener('click', (e) => {
+                e.preventDefault();
+                terminalModal.classList.add('active');
+                runTerminalSequence();
+            });
+
+            btnCloseTerminal.addEventListener('click', () => {
+                terminalModal.classList.remove('active');
+            });
+
+            // Close when clicking outside the terminal window
+            terminalModal.addEventListener('click', (e) => {
+                if (e.target === terminalModal) {
+                    terminalModal.classList.remove('active');
+                }
+            });
+
+            /* =========================================================================
+               Document Modal Logic
+               ========================================================================= */
+            const docModal = document.getElementById('doc-modal');
+            const btnCloseDoc = document.getElementById('btn-close-doc');
+
+            // Event delegation for the dynamically created terminal button
+            document.addEventListener('click', function (e) {
+                const btnOpenDoc = e.target.closest('#btn-open-doc');
+                if (btnOpenDoc) {
+                    e.preventDefault(); // Stop it from following any href or downloading
+                    // Open document modal
+                    docModal.classList.add('active');
+                }
+            });
+
+            btnCloseDoc.addEventListener('click', () => {
+                docModal.classList.remove('active');
+            });
+
+            // Close document modal when clicking outside
+            docModal.addEventListener('click', (e) => {
+                if (e.target === docModal) {
+                    docModal.classList.remove('active');
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
