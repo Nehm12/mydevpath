@@ -28,6 +28,14 @@ body {
     color: var(--text-main);
     background-color: var(--bg-light);
     line-height: 1.6;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Standard */
 }
 
 .container {
@@ -117,7 +125,7 @@ section {
 
 .btn-primary {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     color: white;
     font-weight: 500;
@@ -136,7 +144,7 @@ section {
 
 .btn-outline {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 10px 20px;
     background-color: transparent;
     color: var(--primary-color);
     font-weight: 500;
@@ -160,12 +168,13 @@ section {
 
 .hero-social a {
     color: var(--text-muted);
-    font-size: 1.25rem;
-    transition: color var(--transition-speed);
+    font-size: 1.75rem;
+    transition: color var(--transition-speed), transform 0.2s ease;
 }
 
 .hero-social a:hover {
     color: var(--primary-color);
+    transform: scale(1.1);
 }
 
 .hero-image-wrapper {
@@ -603,9 +612,19 @@ section {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 24px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--footer-text);
     font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-toggles {
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 /* Media Queries */
@@ -712,19 +731,17 @@ section {
 
 /* Theme Toggle Button */
 .theme-toggle {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
+    position: relative;
     background-color: var(--primary-color);
     color: white;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -734,6 +751,50 @@ section {
 .theme-toggle:hover {
     transform: scale(1.1);
     background-color: #2556af;
+}
+
+/* Language Toggle Button */
+.lang-toggle {
+    position: relative;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: width 0.3s ease, background-color var(--transition-speed), transform 0.2s;
+}
+
+.lang-toggle i {
+    flex-shrink: 0;
+}
+
+.lang-toggle .lang-text {
+    max-width: 0;
+    opacity: 0;
+    white-space: nowrap;
+    transition: max-width 0.3s ease, opacity 0.3s ease, margin-left 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.lang-toggle:hover {
+    width: 95px;
+    background-color: #2556af;
+    transform: scale(1.05);
+}
+
+.lang-toggle:hover .lang-text {
+    max-width: 50px;
+    opacity: 1;
+    margin-left: 8px;
 }
 
 /* Dark Mode Variables */

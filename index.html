@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.2">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
@@ -22,29 +22,32 @@
         }
     </script>
 
-    <!-- Theme Toggle -->
-    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-        <i class="fas fa-moon"></i>
-    </button>
+    <!-- Theme and Language toggles moved to footer -->
+
 
     <!-- Hero Section -->
     <header class="hero-section" id="home">
         <div class="container hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Nehm Hounga<br></h1>
-                <p class="hero-subtitle">Software Developer Engineer |🔹Amazon Certified |<br>Java Specialist - AWS
+                <h1 class="hero-title" data-i18n="hero-title">Nehm Hounga<br></h1>
+                <p class="hero-subtitle" data-i18n="hero-subtitle">Software Developer Engineer |🔹Amazon Certified
+                    |<br>Java Specialist - AWS
                     Ecosystem | Google Cloud Innovator |
                     Consultant Solution Architect </p>
-                <p class="hero-text">Building resilient software solutions at the intersection of cloud computing and
+                <p class="hero-text" data-i18n="hero-text">Building resilient software solutions at the intersection of
+                    cloud computing and
                     software engineering. Focused on scalable architectures, distributed systems, and delivering
                     impactful solutions within AWS and Google Cloud environments.</p>
                 <div class="hero-actions">
-                    <button class="btn-primary" id="btn-view-cv">View CV</button>
-                    <a href="https://t.me/Nehm00" class="btn-outline">Contact on Telegram Direct!</a>
+                    <button class="btn-primary" id="btn-view-cv" data-i18n="btn-view-cv">View CV</button>
+                    <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/" target="_blank" data-i18n="btn-contact"
+                        class="btn-outline">DM on LinkedIn</a>
+                    <a href="https://nehmportfolio.netlify.app/" target="_blank" data-i18n="btn-entrepreneur"
+                        class="btn-outline">Entrepreneurship Path</a>
                 </div>
                 <div class="hero-social">
-                    <a href="https://github.com/Nehm12"><i class="fas fa-code-branch"></i></a>
-                    <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Nehm12" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/Nehm00" target="_blank"><i class="fab fa-telegram"></i></a>
                     <a href="#contact"><i class="far fa-envelope"></i></a>
                 </div>
             </div>
@@ -57,9 +60,10 @@
     <!-- About Me Section -->
     <section class="about-section" id="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title" data-i18n="about-title">About Me</h2>
             <div class="about-content">
-                <p>I am a Software Development Engineer specialized in Java and cloud-native architectures, with strong
+                <p data-i18n="about-p1">I am a Software Development Engineer specialized in Java and cloud-native
+                    architectures, with strong
                     expertise in the AWS ecosystem and modern scalable systems design. As an Amazon Certified
                     professional and Google Cloud Innovator, I focus on building reliable, high-performance solutions
                     that solve real-world business challenges.With experience in backend engineering, distributed
@@ -67,7 +71,8 @@
                     optimized for cloud environments. My work combines solid software engineering principles with
                     strategic thinking to deliver efficient and sustainable technology solutions.</p>
                 <br>
-                <p>Based in Cotonou, Republic of Benin, I collaborate as a Consultant Solution Architect, helping
+                <p data-i18n="about-p2">Based in Cotonou, Republic of Benin, I collaborate as a Consultant Solution
+                    Architect, helping
                     organizations transform ideas into robust digital products while leveraging cloud technologies and
                     best engineering practices.</p>
             </div>
@@ -83,8 +88,9 @@
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-server"></i></div>
                     <div class="service-content">
-                        <h3 class="service-title">Backend Engineering</h3>
-                        <p class="service-desc">Designing robust and scalable server-side architectures</p>
+                        <h3 class="service-title" data-i18n="services-be">Backend Engineering</h3>
+                        <p class="service-desc" data-i18n="services-be-desc">Designing robust and scalable server-side
+                            architectures</p>
                         <div class="service-tags">
                             <span class="tag">Laravel</span>
                             <span class="tag">Django</span>
@@ -98,8 +104,9 @@
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-database"></i></div>
                     <div class="service-content">
-                        <h3 class="service-title">Data Engineering</h3>
-                        <p class="service-desc">Designing and optimizing database architectures</p>
+                        <h3 class="service-title" data-i18n="services-de">Data Engineering</h3>
+                        <p class="service-desc" data-i18n="services-de-desc">Designing and optimizing database
+                            architectures</p>
                         <div class="service-tags">
                             <span class="tag">MongoDB</span>
                             <span class="tag">Oracle</span>
@@ -113,8 +120,9 @@
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-microchip"></i></div>
                     <div class="service-content">
-                        <h3 class="service-title">Cloud Architecture</h3>
-                        <p class="service-desc">Deploying and managing cloud infrastructure</p>
+                        <h3 class="service-title" data-i18n="services-ca">Cloud Architecture</h3>
+                        <p class="service-desc" data-i18n="services-ca-desc">Deploying and managing cloud infrastructure
+                        </p>
                         <div class="service-tags">
                             <span class="tag">AWS</span>
                             <span class="tag">Google Cloud</span>
@@ -128,8 +136,9 @@
                 <div class="service-card">
                     <div class="service-icon"><i class="far fa-comment-dots"></i></div>
                     <div class="service-content">
-                        <h3 class="service-title">Prompt Engineering</h3>
-                        <p class="service-desc">Crafting effective prompts for AI models to achieve desired outcomes</p>
+                        <h3 class="service-title" data-i18n="services-pe">Prompt Engineering</h3>
+                        <p class="service-desc" data-i18n="services-pe-desc">Crafting effective prompts for AI models to
+                            achieve desired outcomes</p>
                         <div class="service-tags">
                             <span class="tag">GPT-3</span>
                             <span class="tag">ChatGPT</span>
@@ -145,8 +154,9 @@
                 <div class="service-card">
                     <div class="service-icon"><i class="fas fa-mobile"></i></div>
                     <div class="service-content">
-                        <h3 class="service-title">Mobile Development </h3>
-                        <p class="service-desc">Building mobile applications for iOS and Android</p>
+                        <h3 class="service-title" data-i18n="services-md">Mobile Development </h3>
+                        <p class="service-desc" data-i18n="services-md-desc">Building mobile applications for iOS and
+                            Android</p>
                         <div class="service-tags">
                             <span class="tag">Flutter</span>
                             <span class="tag">React Native</span>
@@ -161,12 +171,12 @@
     <!-- Skills & Expertise Section -->
     <section class="skills-section" id="skills">
         <div class="container">
-            <h2 class="section-title">Skills & Expertise</h2>
+            <h2 class="section-title" data-i18n="skills-title">Skills & Expertise</h2>
             <div class="skills-grid">
 
                 <!-- Programming Languages -->
                 <div class="skill-card">
-                    <h3 class="skill-card-title">Programming Languages</h3>
+                    <h3 class="skill-card-title" data-i18n="skills-pl">Programming Languages</h3>
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>Java</span>
@@ -225,7 +235,7 @@
 
                 <!-- Frameworks -->
                 <div class="skill-card">
-                    <h3 class="skill-card-title">Frameworks</h3>
+                    <h3 class="skill-card-title" data-i18n="skills-fw">Frameworks</h3>
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>Laravel</span>
@@ -275,7 +285,7 @@
 
                 <!-- Tools & Platforms -->
                 <div class="skill-card">
-                    <h3 class="skill-card-title">Tools & Platforms</h3>
+                    <h3 class="skill-card-title" data-i18n="skills-tp">Tools & Platforms</h3>
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>Git</span>
@@ -325,7 +335,7 @@
 
                 <!-- Databases -->
                 <div class="skill-card">
-                    <h3 class="skill-card-title">Databases</h3>
+                    <h3 class="skill-card-title" data-i18n="skills-db">Databases</h3>
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>MongoDB</span>
@@ -366,7 +376,7 @@
 
                 <!-- Other -->
                 <div class="skill-card">
-                    <h3 class="skill-card-title">Other</h3>
+                    <h3 class="skill-card-title" data-i18n="skills-ot">Other</h3>
                     <div class="skill-item">
                         <div class="skill-info">
                             <span>Docker</span>
@@ -412,7 +422,7 @@
     <!-- Featured Projects Section -->
     <section class="projects-section" id="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title" data-i18n="projects-title">Featured Projects</h2>
             <div class="projects-grid">
 
                 <!-- Project 1 -->
@@ -420,16 +430,18 @@
                     <img src="images/project1.png" alt="NovaTech Vision Website" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">NovaTech Vision</h3>
-                        <p class="project-desc">A full Backend-Frontend website for NovaTech Vision, a company that
+                        <p class="project-desc" data-i18n="desc-nova">A full Backend-Frontend website for NovaTech
+                            Vision, a company that
                             specializes in IT solutions.</p>
                         <div class="project-tags">
                             <span class="tag">Vue Js</span>
                             <span class="tag">Laravel</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://novatechvision.com/" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://novatechvision.com/" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -440,7 +452,7 @@
                     AgriTwin" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">AgriTwin</h3>
-                        <p class="project-desc">AgriTwin a digital agriculture platform,
+                        <p class="project-desc" data-i18n="desc-agri">AgriTwin a digital agriculture platform,
                             PWA available online that transforms every farm into a digital twin
                             intelligent, usable even on a simple smartphone.
                             More productive, sustainable and resilient agriculture thanks to satellite data.</p>
@@ -451,9 +463,10 @@
                             <span class="tag">Machine Learning</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://agritwin.vercel.app/" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://agritwin.vercel.app/" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -463,7 +476,8 @@
                     <img src="images/speedX.png" alt="peedX" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">SpeedX</h3>
-                        <p class="project-desc">Creation of an application to facilitate invoice entry for the financial
+                        <p class="project-desc" data-i18n="desc-speed">Creation of an application to facilitate invoice
+                            entry for the financial
                             sector.
                             Automating financial flows, tracking transactions and generating accurate reports for
                             users.
@@ -475,9 +489,10 @@
                             <span class="tag">Sqlite</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://speedx-eta.vercel.app/" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://speedx-eta.vercel.app/" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -487,16 +502,18 @@
                     <img src="images/project4.png" alt="AI4BMI" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">AI4BMI</h3>
-                        <p class="project-desc">A complete platform for managing industrial equipment and e-commerce for
+                        <p class="project-desc" data-i18n="desc-ai4bmi">A complete platform for managing industrial
+                            equipment and e-commerce for
                             the Bénin Moto Industry (BMI) factory.</p>
                         <div class="project-tags">
                             <span class="tag">Laravel</span>
                             <span class="tag">FLutter</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://ai4bmi.cabinet-xaviertermeau.com/" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://ai4bmi.cabinet-xaviertermeau.com/" class="project-link"
+                                data-i18n="btn-demo" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -506,7 +523,7 @@
                     <img src="images/project5.png" alt="CampusConnect" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">CampusConnect </h3>
-                        <p class="project-desc">The university platform
+                        <p class="project-desc" data-i18n="desc-campus">The university platform
                             that makes academic life easier. University announcements, room reservations, collaborative
                             workspace.</p>
                         <div class="project-tags">
@@ -514,9 +531,10 @@
                             <span class="tag">mysql</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -525,7 +543,8 @@
                     <img src="images/project6.png" alt="BMI Shop" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">BMI Shop </h3>
-                        <p class="project-desc">Mobile store for auto & motorcycle parts. Complete journey: catalog,
+                        <p class="project-desc" data-i18n="desc-bmishop">Mobile store for auto & motorcycle parts.
+                            Complete journey: catalog,
                             shopping cart, checkout, and Mobile Money payment (FedaPay).</p>
                         <div class="project-tags">
                             <span class="tag">Flutter</span>
@@ -533,9 +552,10 @@
                             <span class="tag">mysql</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -545,16 +565,17 @@
                     <img src="images/project7.png" alt="KiFood Mobile" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">KiFood Mobile</h3>
-                        <p class="project-desc">Mobile App for food delivery in Bénin.</p>
+                        <p class="project-desc" data-i18n="desc-kifood">Mobile App for food delivery in Bénin.</p>
                         <div class="project-tags">
                             <span class="tag">Flutter</span>
                             <span class="tag">Laravel</span>
                             <span class="tag">mysql</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/CampusConnect" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -563,16 +584,18 @@
                     <img src="images/project8.png" alt="High School LTC Manage APP" class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">High School LTC Manage APP</h3>
-                        <p class="project-desc">High School LTC Manage APP is a full web application Backend-Frontend
+                        <p class="project-desc" data-i18n="desc-ltc">High School LTC Manage APP is a full web
+                            application Backend-Frontend
                             for managing high school students, teachers, and courses.</p>
                         <div class="project-tags">
                             <span class="tag">Laravel</span>
                             <span class="tag">mysql</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://github.com/Nehm12/LTC" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://github.com/Nehm12/LTC" class="project-link" data-i18n="btn-demo"
+                                target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -582,15 +605,17 @@
                     <img src="images/project9.png" alt="House of Transformation " class="project-img">
                     <div class="project-content">
                         <h3 class="project-title">House of Transformation</h3>
-                        <p class="project-desc"> House of Transformation is a spiritual community website </p>
+                        <p class="project-desc" data-i18n="desc-house"> House of Transformation is a spiritual community
+                            website </p>
                         <div class="project-tags">
                             <span class="tag">Laravel</span>
                             <span class="tag">mysql</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="https://maisondelatransformation.netlify.app/" class="project-link"><i
-                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code"><i
+                                    class="fab fa-github"></i> Code</a>
+                            <a href="https://maisondelatransformation.netlify.app/" class="project-link"
+                                data-i18n="btn-demo"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
@@ -604,30 +629,30 @@
     <!-- Get in Touch Section -->
     <section class="contact-section" id="contact">
         <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
+            <h2 class="section-title" data-i18n="contact-title">Get in Touch</h2>
             <div class="contact-wrapper">
 
                 <div class="contact-form-container">
                     <form class="contact-form" action="https://formspree.io/f/meokjrbq" method="post" data-aos="fade-up"
                         data-aos-delay="200">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name" data-i18n="label-name">Name</label>
                             <input type="text" id="name" name="name" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-i18n="label-email">Email</label>
                             <input type="email" id="email" name="email" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message" data-i18n="label-msg">Message</label>
                             <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
                         </div>
-                        <button type="submit" class="btn-primary">Send Message</button>
+                        <button type="submit" class="btn-primary" data-i18n="btn-send">Send Message</button>
                     </form>
                 </div>
 
                 <div class="contact-info-container">
-                    <h3 class="contact-info-title">Contact Information</h3>
+                    <h3 class="contact-info-title" data-i18n="contact-info-title">Contact Information</h3>
                     <div class="contact-info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <span>Cotonou, Littoral, Republic of Benin</span>
@@ -694,27 +719,28 @@
 
                 <div class="footer-col brand-col">
                     <h3 class="footer-name">Nehm HOUNGA</h3>
-                    <p class="footer-roles">Software Engineer | Solutions Architect | Consultant</p>
+                    <p class="footer-roles" data-i18n="footer-roles">Software Engineer | Solutions Architect |
+                        Consultant</p>
                     <div class="footer-social">
-                        <a href="https://github.com/Nehm12"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/"><i
+                        <a href="https://github.com/Nehm12" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/" target="_blank"><i
                                 class="fab fa-linkedin-in"></i></a>
                         <a href=mailto:exaucehounga@yahoo.com><i class="far fa-envelope"></i></a>
                     </div>
                 </div>
 
                 <div class="footer-col links-col">
-                    <h4 class="footer-heading">Quick Links</h4>
+                    <h4 class="footer-heading" data-i18n="footer-quick">Quick Links</h4>
                     <ul class="footer-links">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#" data-i18n="link-about">About</a></li>
+                        <li><a href="#projects" data-i18n="link-projects">Projects</a></li>
+                        <li><a href="#skills" data-i18n="link-skills">Skills</a></li>
+                        <li><a href="#contact" data-i18n="link-contact">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col contact-col">
-                    <h4 class="footer-heading">Contact</h4>
+                    <h4 class="footer-heading" data-i18n="footer-contact">Contact</h4>
                     <ul class="footer-contact-list">
                         <li>Cotonou, Littoral</li>
                         <li>Republic of Benin</li>
@@ -725,7 +751,18 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Nehm HOUNGA. All rights reserved.</p>
+                <p data-i18n="footer-rights">&copy; 2026 Nehm HOUNGA. All rights reserved.</p>
+                <div class="footer-toggles">
+                    <!-- Theme Toggle -->
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <!-- Language Toggle -->
+                    <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-text">FR</span>
+                    </button>
+                </div>
             </div>
         </div>
     </footer>
@@ -751,6 +788,16 @@
                     icon.classList.remove('fa-sun');
                     icon.classList.add('fa-moon');
                     localStorage.setItem('theme', 'light-mode');
+                }
+            });
+
+            // Prevent Right-Click
+            document.addEventListener('contextmenu', event => event.preventDefault());
+
+            // Prevent Copy Shortcut (Ctrl+C / Cmd+C)
+            document.addEventListener('keydown', event => {
+                if ((event.ctrlKey || event.metaKey) && (event.key === 'c' || event.key === 'C')) {
+                    event.preventDefault();
                 }
             });
 
@@ -888,6 +935,7 @@
 
         });
     </script>
+    <script src="lang.js"></script>
 </body>
 
 </html>
