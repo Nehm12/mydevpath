@@ -57,7 +57,7 @@ const translations = {
         "contact-info-title": "Contact Information",
 
         // Footer
-        "footer-roles": "Software Engineer | Solutions Architect | Consultant",
+        "footer-roles": "Software Engineer | IT Solutions Architect | Consultant",
         "footer-quick": "Quick Links",
         "link-about": "About",
         "link-projects": "Projects",

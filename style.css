@@ -115,6 +115,7 @@ section {
     color: var(--text-muted);
     margin-bottom: 40px;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .hero-actions {
@@ -224,7 +225,7 @@ section {
     margin: 0 auto;
     font-size: 1.1rem;
     color: var(--text-muted);
-    text-align: left;
+    text-align: justify;
     line-height: 1.8;
 }
 
@@ -276,6 +277,7 @@ section {
     margin-bottom: 24px;
     line-height: 1.6;
     flex-grow: 1;
+    text-align: justify;
 }
 
 .service-tags {
@@ -393,6 +395,7 @@ section {
     margin-bottom: 24px;
     flex-grow: 1;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .project-tags {
