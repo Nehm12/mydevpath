@@ -214,6 +214,134 @@ section {
 }
 
 
+/* Trusted By Section */
+.trusted-section {
+    padding: 3rem 0;
+    background-color: var(--bg-white);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.trusted-title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+}
+
+.marquee-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+/* Gradient mask for smooth fade out at edges */
+.marquee-wrapper::before,
+.marquee-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.marquee-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, var(--bg-white) 0%, transparent 100%);
+}
+
+.marquee-wrapper::after {
+    right: 0;
+    background: linear-gradient(to left, var(--bg-white) 0%, transparent 100%);
+}
+
+.marquee-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    animation: scroll 30s linear infinite;
+    min-width: 200%;
+    /* Ensures it's wide enough to scroll smoothly */
+}
+
+/* Pause animation on hover */
+.marquee-wrapper:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+.trusted-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    opacity: 0.7;
+    /* Slightly higher opacity for images vs text */
+    transition: all var(--transition-speed);
+    white-space: nowrap;
+    cursor: default;
+    filter: grayscale(100%) opacity(0.6);
+    /* Mute logos to make them look uniform */
+}
+
+.trusted-logo-img {
+    height: 45px;
+    /* Professional size */
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
+    border-radius: 8px;
+    /* Subtle rounded corners */
+    transition: all var(--transition-speed);
+}
+
+.trusted-logo:hover {
+    opacity: 1;
+    filter: grayscale(0%) opacity(1);
+    /* Reveal full color on hover */
+    transform: scale(1.05);
+}
+
+.trusted-logo:hover .trusted-logo-img {
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+        /* Scroll halfway (since we doubled the content) */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .marquee-wrapper::before,
+    .marquee-wrapper::after {
+        width: 60px;
+    }
+
+    .trusted-logo {
+        font-size: 1.25rem;
+    }
+
+    .trusted-logo i {
+        font-size: 1.5rem;
+    }
+}
+
 /* About Me Section */
 .about-section {
     background-color: var(--bg-white);

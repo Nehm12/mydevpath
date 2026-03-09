@@ -5,14 +5,15 @@ const translations = {
     en: {
         // Hero Section
         "hero-title": "Nehm Hounga<br>",
-        "hero-subtitle": "Software Developer Engineer |🔹Amazon Certified |<br>Java Specialist - AWS Ecosystem | Google Cloud Innovator |<br>Consultant Solution Architect ",
+        "hero-subtitle": "Software Developer Engineer |🔹Amazon Certified |<br>AWS & GCP Ecosystem | Google Cloud Innovator |<br>Consultant Solution Architect ",
         "hero-text": "Building resilient software solutions at the intersection of cloud computing and software engineering. Focused on scalable architectures, distributed systems, and delivering impactful solutions within AWS and Google Cloud environments.",
         "btn-view-cv": "View CV",
         "btn-contact": "DM on LinkedIn",
         "btn-entrepreneur": "Entrepreneurship Path",
+        "trusted-title": "Trusted By",
         "about-title": "About Me",
-        "about-p1": "I am a Software Development Engineer specialized in Java and cloud-native architectures, with strong expertise in the AWS ecosystem and modern scalable systems design. As an Amazon Certified professional and Google Cloud Innovator, I focus on building reliable, high-performance solutions that solve real-world business challenges.With experience in backend engineering, distributed systems, and solution architecture, I design and develop applications that are secure, scalable, and optimized for cloud environments. My work combines solid software engineering principles with strategic thinking to deliver efficient and sustainable technology solutions.",
-        "about-p2": "Based in Cotonou, Republic of Benin, I collaborate as a Consultant Solution Architect, helping organizations transform ideas into robust digital products while leveraging cloud technologies and best engineering practices.",
+        "about-p1": "I am not just another developer. I have been immersed in computer science since high school before specializing at the university level. This early, foundational deep-dive into general IT has shaped my holistic approach to problem-solving, giving me a broader understanding of how systems interlock beneath the surface. Today, as an Amazon Certified Software Development Engineer and Google Cloud Innovator, I leverage this lifelong technical culture to build robust, end-to-end architectures.",
+        "about-p2": "Often seen as an \"All-in-One\" technical asset, I bridge the gap between low-level system understanding and high-level cloud strategies (AWS & GCP). Based in Cotonou, Republic of Benin, I act as a Consultant Solution Architect, bringing a natural intuition and pragmatic engineering to organizations that need resilient, scalable digital products rather than just lines of code.",
 
         // Services
         "services-be": "Backend Engineering",
@@ -35,7 +36,7 @@ const translations = {
         "skills-ot": "Other",
 
         // Projects
-        "projects-title": "Featured Projects",
+        "projects-title": "What we've built",
         "desc-nova": "A full Backend-Frontend website for NovaTech Vision, a company that\n                            specializes in IT solutions.",
         "desc-agri": "AgriTwin a digital agriculture platform,\n                            PWA available online that transforms every farm into a digital twin\n                            intelligent, usable even on a simple smartphone.\n                            More productive, sustainable and resilient agriculture thanks to satellite data.",
         "desc-speed": "Creation of an application to facilitate invoice entry for the financial\n                            sector.\n                            Automating financial flows, tracking transactions and generating accurate reports for\n                            users.\n                            Implementation of an intuitive interface to simplify accounting operations and\n                            improve efficiency.",
@@ -49,7 +50,7 @@ const translations = {
         "btn-demo": "<i class=\"fas fa-external-link-alt\"></i> Demo",
 
         // Contact
-        "contact-title": "Get in Touch",
+        "contact-title": "Let's Work Together",
         "label-name": "Name",
         "label-email": "Email",
         "label-msg": "Message",
@@ -69,14 +70,15 @@ const translations = {
     fr: {
         // Hero Section
         "hero-title": "Nehm Hounga<br>",
-        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br>Spécialiste Java - Écosystème AWS | Google Cloud Innovateur |<br>Consultant Architecte Solutions ",
+        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br> Écosystème | Google Cloud Innovateur |<br>Consultant Architecte Solutions ",
         "hero-text": "Création de solutions logicielles résilientes à l'intersection du cloud computing et de l'ingénierie logicielle. Axé sur les architectures évolutives, les systèmes distribués et la fourniture de solutions percutantes dans les environnements AWS et Google Cloud.",
         "btn-view-cv": "Voir le CV",
         "btn-contact": "DM sur LinkedIn",
         "btn-entrepreneur": "Parcours entrepreneurial ",
+        "trusted-title": "Ils m'ont fait confiance",
         "about-title": "À Propos de Moi",
-        "about-p1": "Je suis un Ingénieur en Développement Logiciel spécialisé en Java et en architectures cloud-natives, avec une forte expertise dans l'écosystème AWS et la conception de systèmes évolutifs modernes. En tant que professionnel certifié Amazon et innovateur Google Cloud, je me concentre sur la création de solutions fiables et performantes qui résolvent des défis commerciaux réels. Avec de l'expérience en ingénierie backend, en systèmes distribués et en architecture de solutions, je conçois et développe des applications sécurisées, évolutives et optimisées pour les environnements cloud. Mon travail combine des principes solides d'ingénierie logicielle avec une réflexion stratégique pour fournir des solutions technologiques efficaces et durables.",
-        "about-p2": "Basé à Cotonou, en République du Bénin, je collabore en tant que Consultant Architecte Solutions, aidant les organisations à transformer des idées en produits numériques robustes tout en tirant parti des technologies cloud et des meilleures pratiques d'ingénierie.",
+        "about-p1": "Je ne suis pas le développeur habituel. Baignant dans l'informatique depuis le lycée avant même de me spécialiser à l'université, j'ai acquis une culture générale de la tech profonde et organique. Ce bagage précoce me donne une véritable mentalité de « couteau suisse » et une compréhension globale de la façon dont les systèmes s'articulent, de la base jusqu'au cloud. Aujourd'hui, en tant qu'Ingénieur Logiciel certifié Amazon et innovateur Google Cloud, je mets à profit cette intuition technique pour concevoir des architectures globales et ultra-résilientes.",
+        "about-p2": "Véritable ressource « All-in-One » (Tout-en-Un), je fais le pont entre les couches basses du système et les stratégies Cloud modernes (AWS & GCP). Basé à Cotonou au Bénin, j'interviens comme Consultant Architecte Solutions auprès d'organisations qui recherchent un pragmatisme naturel et une vision d'ensemble pour transformer leurs concepts en produits numériques pérennes.",
 
         // Services
         "services-be": "Ingénierie Backend",
@@ -99,7 +101,7 @@ const translations = {
         "skills-ot": "Autres",
 
         // Projects
-        "projects-title": "Projets Phares",
+        "projects-title": "Ce que nous avons construit",
         "desc-nova": "Un site complet Backend-Frontend pour NovaTech Vision, une entreprise spécialisée dans les solutions informatiques.",
         "desc-agri": "AgriTwin une plateforme d'agriculture numérique,\n                            PWA disponible en ligne qui transforme chaque ferme en un jumeau numérique\n                            intelligent, utilisable même sur un simple smartphone.\n                            Une agriculture plus productive, durable et résiliente grâce aux données satellitaires.",
         "desc-speed": "Création d'une application pour faciliter la saisie des factures dans le secteur financier.\n                            Automatisation des flux financiers, suivi des transactions et génération de rapports précis pour les\n                            utilisateurs.\n                            Mise en place d'une interface intuitive pour simplifier les opérations comptables et\n                            améliorer l'efficacité.",
@@ -113,7 +115,7 @@ const translations = {
         "btn-demo": "<i class=\"fas fa-external-link-alt\"></i> Démo",
 
         // Contact
-        "contact-title": "Me Contacter",
+        "contact-title": "Travaillons ensemble",
         "label-name": "Nom",
         "label-email": "E-mail",
         "label-msg": "Message",
