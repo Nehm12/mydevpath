@@ -37,6 +37,7 @@ const translations = {
 
         // Projects
         "projects-title": "What we've built",
+        "desc-pati": "A full Backend-Frontend website for a French backery & ice cream company.",
         "desc-nova": "A full Backend-Frontend website for NovaTech Vision, a company that\n                            specializes in IT solutions.",
         "desc-agri": "AgriTwin a digital agriculture platform,\n                            PWA available online that transforms every farm into a digital twin\n                            intelligent, usable even on a simple smartphone.\n                            More productive, sustainable and resilient agriculture thanks to satellite data.",
         "desc-speed": "Creation of an application to facilitate invoice entry for the financial\n                            sector.\n                            Automating financial flows, tracking transactions and generating accurate reports for\n                            users.\n                            Implementation of an intuitive interface to simplify accounting operations and\n                            improve efficiency.",
@@ -102,6 +103,7 @@ const translations = {
 
         // Projects
         "projects-title": "Ce que nous avons construit",
+        "desc-pati": "Un site complet Backend-Frontend pour une patisserie et glacier française.",
         "desc-nova": "Un site complet Backend-Frontend pour NovaTech Vision, une entreprise spécialisée dans les solutions informatiques.",
         "desc-agri": "AgriTwin une plateforme d'agriculture numérique,\n                            PWA disponible en ligne qui transforme chaque ferme en un jumeau numérique\n                            intelligent, utilisable même sur un simple smartphone.\n                            Une agriculture plus productive, durable et résiliente grâce aux données satellitaires.",
         "desc-speed": "Création d'une application pour faciliter la saisie des factures dans le secteur financier.\n                            Automatisation des flux financiers, suivi des transactions et génération de rapports précis pour les\n                            utilisateurs.\n                            Mise en place d'une interface intuitive pour simplifier les opérations comptables et\n                            améliorer l'efficacité.",
