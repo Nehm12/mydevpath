@@ -5,7 +5,7 @@ const translations = {
     en: {
         // Hero Section
         "hero-title": "Nehm Hounga<br>",
-        "hero-subtitle": "Software Developer Engineer |🔹Amazon Certified |<br>AWS & GCP Ecosystem | Google Cloud Innovator |<br>Consultant Solution Architect ",
+        "hero-subtitle": "Software Developer Engineer |🔹Amazon Certified |<br>AWS & GCP Ecosystem | Google Cloud Innovator |<br>Consultant Solution Architect | Serial Entrepreneur ",
         "hero-text": "Building resilient software solutions at the intersection of cloud computing and software engineering. Focused on scalable architectures, distributed systems, and delivering impactful solutions within AWS and Google Cloud environments.",
         "btn-view-cv": "View CV",
         "btn-contact": "DM on LinkedIn",
@@ -70,7 +70,7 @@ const translations = {
     fr: {
         // Hero Section
         "hero-title": "Nehm Hounga<br>",
-        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br> Écosystème | Google Cloud Innovateur |<br>Consultant Architecte Solutions ",
+        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br> Écosystème | Google Cloud Innovateur |<br>Consultant Architecte Solutions | Entrepreneur Multi-Secteur ",
         "hero-text": "Création de solutions logicielles résilientes à l'intersection du cloud computing et de l'ingénierie logicielle. Axé sur les architectures évolutives, les systèmes distribués et la fourniture de solutions percutantes dans les environnements AWS et Google Cloud.",
         "btn-view-cv": "Voir le CV",
         "btn-contact": "DM sur LinkedIn",
