@@ -70,7 +70,7 @@ const translations = {
     fr: {
         // Hero Section
         "hero-title": "Nehm Hounga<br>",
-        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br> Écosystème | Google Cloud Innovateur |<br>Consultant Architecte Solutions | Entrepreneur Multi-Secteur ",
+        "hero-subtitle": "Ingénieur Développeur Logiciel |🔹Certifié Amazon |<br>Écosystème AWS & GCP | Google Cloud Innovateur |<br>Consultant Architecte Solutions | Entrepreneur Multi-Secteur ",
         "hero-text": "Création de solutions logicielles résilientes à l'intersection du cloud computing et de l'ingénierie logicielle. Axé sur les architectures évolutives, les systèmes distribués et la fourniture de solutions percutantes dans les environnements AWS et Google Cloud.",
         "btn-view-cv": "Voir le CV",
         "btn-contact": "DM sur LinkedIn",
