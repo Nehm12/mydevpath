@@ -187,3 +187,9 @@ document.addEventListener('DOMContentLoaded', () => {
         setLanguage(newLang);
     });
 });
+
+// French translations for new projects
+i18n.fr = i18n.fr || {};
+i18n.fr['desc-waxleahi'] = 'Vos courses à domicile 24h/24 • 7j/7. Service premium pour seniors, personnes à mobilité réduite et tous ceux qui ont besoin d\'aide. Commandez simplement, nous livrons où vous êtes.';
+i18n.fr['desc-neuroalert'] = 'La Puissance de l\'IA. Zéro Internet Requis. Le premier triage d\'AVC alimenté par l\'IA qui fonctionne sans internet. Apportez la puissance de Google Gemini sur n\'importe quel téléphone, n\'importe où, sur n\'importe quel réseau.';
+i18n.fr['desc-teddy'] = 'Site professionnel de Journaliste & Consultant Médias. Une plateforme dédiée à l\'expertise médiatique et aux services de conseil en journalisme.';
