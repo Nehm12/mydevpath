@@ -47,6 +47,9 @@ const translations = {
         "desc-kifood": "Mobile App for food delivery in Bénin.",
         "desc-ltc": "High School LTC Manage APP is a full web application Backend-Frontend\n                            for managing high school students, teachers, and courses.",
         "desc-house": " House of Transformation is a spiritual community website ",
+        "desc-waxleahi": "Your shopping delivered to your home 24/7. Premium service for seniors, people with reduced mobility and everyone who needs help. Order simply, we deliver where you are.",
+        "desc-neuroalert": "The Power of AI. Zero Internet Required. The first AI-powered stroke triage that works without internet. Bring the power of Google Gemini to any phone, anywhere, on any network.",
+        "desc-teddy": "Journalist & Media Consultant professional website. A platform dedicated to media expertise and journalism consulting services.",
         "btn-code": "<i class=\"fab fa-github\"></i> Code",
         "btn-demo": "<i class=\"fas fa-external-link-alt\"></i> Demo",
 
@@ -113,6 +116,9 @@ const translations = {
         "desc-kifood": "Application mobile pour la livraison de repas au Bénin.",
         "desc-ltc": "High School LTC Manage APP est une application web complète Backend-Frontend\n                            pour gérer les élèves, les enseignants et les cours au lycée.",
         "desc-house": " House of Transformation est un site de communauté spirituelle ",
+        "desc-waxleahi": "Vos courses à domicile 24h/24 • 7j/7. Service premium pour seniors, personnes à mobilité réduite et tous ceux qui ont besoin d'aide. Commandez simplement, nous livrons où vous êtes.",
+        "desc-neuroalert": "La Puissance de l'IA. Zéro Internet Requis. Le premier triage d'AVC alimenté par l'IA qui fonctionne sans internet. Apportez la puissance de Google Gemini sur n'importe quel téléphone, n'importe où, sur n'importe quel réseau.",
+        "desc-teddy": "Site professionnel de Journaliste & Consultant Médias. Une plateforme dédiée à l'expertise médiatique et aux services de conseil en journalisme.",
         "btn-code": "<i class=\"fab fa-github\"></i> Code",
         "btn-demo": "<i class=\"fas fa-external-link-alt\"></i> Démo",
 
