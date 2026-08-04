@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.min.css?v=1.3">
+    <link rel="stylesheet" href="style.css?v=1.4">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
@@ -64,6 +64,35 @@
             </div>
         </div>
     </header>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="stats-title">The impact along so far</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label" data-i18n="stat-platforms">Plateformes Livrées</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number" data-target="7000">0</div>
+                    <div class="stat-label" data-i18n="stat-users">Utilisateurs Actifs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label" data-i18n="stat-monthly">Utilisateurs / Mois</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="stat-number" data-i18n="stat-privacy-num">Privé & Public</div>
+                    <div class="stat-label" data-i18n="stat-privacy">Projets Structurés</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Trusted By Section -->
     <section class="trusted-section">
@@ -474,6 +503,44 @@
             <h2 class="section-title" data-i18n="projects-title">What we've built</h2>
             <div class="projects-grid">
 
+                <!-- Project 13 - SIMScore -->
+                <div class="project-card">
+                    <img src="images/project13.png" alt="SIMScore" class="project-img" onerror="this.src='images/project0.png'">
+                    <div class="project-content">
+                        <h3 class="project-title">SIMScore</h3>
+                        <p class="project-desc" data-i18n="desc-simscore">Student Information Management System Core
+                             A game-changing platform for the academics process in the Health Science Faculty. Public platform built for scalable student management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django 5</span>
+                            <span class="tag">Public</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://simscore.uac.bj/" class="project-link" data-i18n="btn-demo" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 14 - PEC -->
+                <div class="project-card">
+                    <img src="images/project14.png" alt="PEC" class="project-img" onerror="this.src='images/project0.png'">
+                    <div class="project-content">
+                        <h3 class="project-title">PEC</h3>
+                        <p class="project-desc" data-i18n="desc-pec">Performance Expertise Consulting
+                             A web portfolio for a consulting firm specializing in sport and pedagogy expertise.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Portfolio</span>
+                            <span class="tag">Consulting</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="project-link" data-i18n="btn-code" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://perfomanace-expertise-consulting.vercel.app/" class="project-link" data-i18n="btn-demo" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
                   <!-- Project 10 - WA XLE AHI -->
                   <div class="project-card">
                     <img src="images/project10.png" alt="WA XLE AHI" class="project-img">
@@ -744,6 +811,211 @@
                     </div>
                 </div>
               
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title" data-i18n="testimonials-title">Ce que disent mes clients</h2>
+        </div>
+        <div class="testimonials-marquee-wrapper">
+            <div class="testimonials-marquee-content">
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar1.png" alt="Alassane D." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-1-name">Alassane D.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-1-role">Directeur IT, NovaTech Vision</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-1-text">"Nehm a transformé notre vision en une plateforme robuste et performante. Sa maîtrise du cloud et du backend est impressionnante."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar2.png" alt="Fatima K." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-2-name">Fatima K.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-2-role">Fondatrice, BMI Shop</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-2-text">"Un développeur complet qui comprend les enjeux business. Le projet a été livré dans les temps et au-delà de nos attentes."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar3.png" alt="Prosper M." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-3-name">Prosper M.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-3-role">CTO, AgriTwin</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-3-text">"La qualité du code et l'architecture proposée sont top. Nehm est quelqu'un de fiable et très compétent sur AWS et GCP."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar4.png" alt="Christelle A." class="testimonial-avatar" onerror="this.src='images/' ">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-4-name">Christelle A.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-4-role">CEO, KiFood</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-4-text">"Collaboration exceptionnelle. Nehm a su comprendre nos besoins et livrer une application mobile qui a dépassé nos attentes."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar5.png" alt="Didier T." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-5-name">Didier T.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-5-role">Directeur Financier, SpeedX</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-5-text">"Un vrai problem-solver. Il a automatisé tout notre processus financier avec une interface intuitive. Je recommande vivement."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar6.png" alt="Marie-Louise P." class="testimonial-avatar" onerror="this.src='images/' ">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-6-name">Marie-Louise P.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-6-role">Gérante, Patisserie Maison Elysée</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-6-text">"Nehm a construit notre site de A à Z avec un résultat professionnel et moderne. Sa capacité à gérer le full-stack est rare."</p>
+                </div>
+
+                <!-- Doublon pour scroll infini -->
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar1.png" alt="Alassane D." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-1-name">Alassane D.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-1-role">Directeur IT, NovaTech Vision</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-1-text">"Nehm a transformé notre vision en une plateforme robuste et performante. Sa maîtrise du cloud et du backend est impressionnante."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar2.png" alt="Fatima K." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-2-name">Fatima K.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-2-role">Fondatrice, BMI Shop</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-2-text">"Un développeur complet qui comprend les enjeux business. Le projet a été livré dans les temps et au-delà de nos attentes."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar3.png" alt="Prosper M." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-3-name">Prosper M.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-3-role">CTO, AgriTwin</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-3-text">"La qualité du code et l'architecture proposée sont top. Nehm est quelqu'un de fiable et très compétent sur AWS et GCP."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar4.png" alt="Christelle A." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-4-name">Christelle A.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-4-role">CEO, KiFood</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-4-text">"Collaboration exceptionnelle. Nehm a su comprendre nos besoins et livrer une application mobile qui a dépassé nos attentes."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar5.png" alt="Didier T." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-5-name">Didier T.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-5-role">Directeur Financier, SpeedX</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-5-text">"Un vrai problem-solver. Il a automatisé tout notre processus financier avec une interface intuitive. Je recommande vivement."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-wrapper">
+                            <img src="images/avatar6.png" alt="Marie-Louise P." class="testimonial-avatar" onerror="this.src='images/'">
+                        </div>
+                        <div class="testimonial-identity">
+                            <h4 class="testimonial-name" data-i18n="testimonial-6-name">Marie-Louise P.</h4>
+                            <p class="testimonial-role" data-i18n="testimonial-6-role">Gérante, Patisserie Maison Elysée</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text" data-i18n="testimonial-6-text">"Nehm a construit notre site de A à Z avec un résultat professionnel et moderne. Sa capacité à gérer le full-stack est rare."</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -1065,9 +1337,48 @@
                 }
             });
 
+            /* =========================================================================
+               Stats Counter Animation
+               ========================================================================= */
+            const statNumbers = document.querySelectorAll('.stat-number[data-target]');
+            let statsAnimated = false;
+
+            function animateCounters() {
+                if (statsAnimated) return;
+                statsAnimated = true;
+
+                statNumbers.forEach(el => {
+                    const target = parseInt(el.getAttribute('data-target'));
+                    const duration = 2000;
+                    const step = target / (duration / 16);
+                    let current = 0;
+
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        el.textContent = Math.floor(current).toLocaleString() + '+';
+                    }, 16);
+                });
+            }
+
+            const statsSection = document.querySelector('.stats-section');
+            if (statsSection) {
+                const statsObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            animateCounters();
+                            statsObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.3 });
+                statsObserver.observe(statsSection);
+            }
+
         });
     </script>
-    <script src="lang.min.js"></script>
     <script src="lang.js"></script>
 </body>
 

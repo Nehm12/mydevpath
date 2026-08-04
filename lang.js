@@ -69,7 +69,40 @@ const translations = {
         "link-skills": "Skills",
         "link-contact": "Contact",
         "footer-contact": "Contact",
-        "footer-rights": `&copy; ${currentYear} Nehm HOUNGA. All rights reserved.`
+        "footer-rights": `&copy; ${currentYear} Nehm HOUNGA. All rights reserved.`,
+
+        // Stats
+        "stats-title": "The impact along so far",
+        "stat-platforms": "Platforms Delivered",
+        "stat-users": "Active Users",
+        "stat-monthly": "Users / Month",
+        "stat-privacy-num": "Private & Public",
+        "stat-privacy": "Structured Projects",
+
+        // Testimonials
+        "testimonials-title": "What My Clients Say",
+        "testimonial-1-text": '"Nehm transformed our vision into a robust and high-performing platform. His mastery of cloud and backend is impressive."',
+        "testimonial-1-name": "Alassane D.",
+        "testimonial-1-role": "IT Director, NovaTech Vision",
+        "testimonial-2-text": '"A complete developer who understands business challenges. The project was delivered on time and beyond our expectations."',
+        "testimonial-2-name": "Fatima K.",
+        "testimonial-2-role": "Founder, BMI Shop",
+        "testimonial-3-text": '"Top-notch code quality and architecture. Nehm is reliable and highly skilled on AWS and GCP."',
+        "testimonial-3-name": "Prosper M.",
+        "testimonial-3-role": "CTO, AgriTwin",
+        "testimonial-4-text": '"Exceptional collaboration. Nehm understood our needs and delivered a mobile app that exceeded our expectations."',
+        "testimonial-4-name": "Christelle A.",
+        "testimonial-4-role": "CEO, KiFood",
+        "testimonial-5-text": '"A true problem-solver. He automated our entire financial process with an intuitive interface. Highly recommended."',
+        "testimonial-5-name": "Didier T.",
+        "testimonial-5-role": "Financial Director, SpeedX",
+        "testimonial-6-text": '"Nehm built our site from A to Z with a professional and modern result. His full-stack ability is rare."',
+        "testimonial-6-name": "Marie-Louise P.",
+        "testimonial-6-role": "Manager, Patisserie Maison Elysée",
+
+        // New Projects
+        "desc-simscore": "Student Information Management System Core  A game-changing platform for the academics process in the Health Science Faculty. Public platform built for scalable student management.",
+        "desc-pec": "Performance Expertise Consulting  A web portfolio for a consulting firm specializing in sport and pedagogy expertise."
     },
     fr: {
         // Hero Section
@@ -138,7 +171,40 @@ const translations = {
         "link-skills": "Compétences",
         "link-contact": "Contact",
         "footer-contact": "Contact",
-        "footer-rights": `&copy; ${currentYear} Nehm HOUNGA. Tous droits réservés.`
+        "footer-rights": `&copy; ${currentYear} Nehm HOUNGA. Tous droits réservés.`,
+
+        // Stats
+        "stats-title": "L'impact jusqu'ici",
+        "stat-platforms": "Plateformes Livrées",
+        "stat-users": "Utilisateurs Actifs",
+        "stat-monthly": "Utilisateurs / Mois",
+        "stat-privacy-num": "Privé & Public",
+        "stat-privacy": "Projets Structurés",
+
+        // Testimonials
+        "testimonials-title": "Ce que disent mes clients",
+        "testimonial-1-text": "\"Nehm a transformé notre vision en une plateforme robuste et performante. Sa maîtrise du cloud et du backend est impressionnante.\"",
+        "testimonial-1-name": "Alassane D.",
+        "testimonial-1-role": "Directeur IT, NovaTech Vision",
+        "testimonial-2-text": "\"Un développeur complet qui comprend les enjeux business. Le projet a été livré dans les temps et au-delà de nos attentes.\"",
+        "testimonial-2-name": "Fatima K.",
+        "testimonial-2-role": "Fondatrice, BMI Shop",
+        "testimonial-3-text": "\"La qualité du code et l'architecture proposée sont top. Nehm est quelqu'un de fiable et très compétent sur AWS et GCP.\"",
+        "testimonial-3-name": "Prosper M.",
+        "testimonial-3-role": "CTO, AgriTwin",
+        "testimonial-4-text": "\"Collaboration exceptionnelle. Nehm a su comprendre nos besoins et livrer une application mobile qui a dépassé nos attentes.\"",
+        "testimonial-4-name": "Christelle A.",
+        "testimonial-4-role": "CEO, KiFood",
+        "testimonial-5-text": "\"Un vrai problem-solver. Il a automatisé tout notre processus financier avec une interface intuitive. Je recommande vivement.\"",
+        "testimonial-5-name": "Didier T.",
+        "testimonial-5-role": "Directeur Financier, SpeedX",
+        "testimonial-6-text": "\"Nehm a construit notre site de A à Z avec un résultat professionnel et moderne. Sa capacité à gérer le full-stack est rare.\"",
+        "testimonial-6-name": "Marie-Louise P.",
+        "testimonial-6-role": "Gérante, Patisserie Maison Elysée",
+
+        // New Projects
+        "desc-simscore": "Student Information Management System Core  Plateforme révolutionnaire pour le processus académique de la Faculté des Sciences de la Santé. Plateforme publique pour la gestion des étudiants.",
+        "desc-pec": "Performance Expertise Consulting  Portfolio web pour une société de conseil spécialisée en expertise sportive et pédagogique."
     }
 };
 
@@ -187,9 +253,3 @@ document.addEventListener('DOMContentLoaded', () => {
         setLanguage(newLang);
     });
 });
-
-// French translations for new projects
-i18n.fr = i18n.fr || {};
-i18n.fr['desc-waxleahi'] = 'Vos courses à domicile 24h/24 • 7j/7. Service premium pour seniors, personnes à mobilité réduite et tous ceux qui ont besoin d\'aide. Commandez simplement, nous livrons où vous êtes.';
-i18n.fr['desc-neuroalert'] = 'La Puissance de l\'IA. Zéro Internet Requis. Le premier triage d\'AVC alimenté par l\'IA qui fonctionne sans internet. Apportez la puissance de Google Gemini sur n\'importe quel téléphone, n\'importe où, sur n\'importe quel réseau.';
-i18n.fr['desc-teddy'] = 'Site professionnel de Journaliste & Consultant Médias. Une plateforme dédiée à l\'expertise médiatique et aux services de conseil en journalisme.';
