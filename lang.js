@@ -80,7 +80,7 @@ const translations = {
         "stat-users": "Active Users",
         "stat-monthly": "Users / Month",
         "stat-privacy-num": "Private & Public",
-        "stat-privacy": "Structured Projects",
+        "stat-privacy": "Sector",
 
         // Testimonials
         "testimonials-title": "What My Clients Say",
@@ -185,7 +185,7 @@ const translations = {
         "stat-users": "Utilisateurs Actifs",
         "stat-monthly": "Utilisateurs / Mois",
         "stat-privacy-num": "Privé & Public",
-        "stat-privacy": "Projets Structurés",
+        "stat-privacy": "Secteur",
 
         // Testimonials
         "testimonials-title": "Ce que disent mes clients",
@@ -246,15 +246,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang } }));
     }
 
-    // Set initial language without overriding raw HTML initially (unless it differs)
-    if (localStorage.getItem('language')) {
-        setLanguage(currentLang);
-    } else {
-        // Just set the correct text for the button, keeping current string from HTML
-        const langText = langToggleBtn.querySelector('.lang-text');
-        if (langText) langText.textContent = 'FR';
-        langToggleBtn.setAttribute('aria-label', 'Passer en Français');
-    }
+    // Set initial language (syncs all data-i18n elements to the default 'en',
+    // so fallback HTML text like the stats labels can never stay in French)
+    setLanguage(currentLang);
 
     // Toggle language on click
     langToggleBtn.addEventListener('click', () => {
