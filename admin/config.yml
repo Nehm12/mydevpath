@@ -3,7 +3,7 @@ backend:
   repo: Nehm12/mydevpath
   branch: main
   base_url: https://api.netlify.com
-  auth_endpoint: https://api.netlify.com/auth/dialog
+  auth_endpoint: /auth/dialog
   site_domain: www.nehm.online
 
 publish_mode: editorial_workflow
