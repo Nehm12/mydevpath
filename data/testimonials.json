@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "name": "Alassane D.",
+      "role_en": "IT Director, NovaTech Vision",
+      "role_fr": "Directeur IT, NovaTech Vision",
+      "comment_en": "Nehm transformed our vision into a robust and high-performing platform. His mastery of cloud and backend is impressive.",
+      "comment_fr": "Nehm a transformé notre vision en une plateforme robuste et performante. Sa maîtrise du cloud et du backend est impressionnante.",
+      "photo": "/images/avatar1.png",
+      "rating": 5
+    },
+    {
+      "name": "Fatima K.",
+      "role_en": "Founder, BMI Shop",
+      "role_fr": "Fondatrice, BMI Shop",
+      "comment_en": "A complete developer who understands business challenges. The project was delivered on time and beyond our expectations.",
+      "comment_fr": "Un développeur complet qui comprend les enjeux business. Le projet a été livré dans les temps et au-delà de nos attentes.",
+      "photo": "/images/avatar2.png",
+      "rating": 5
+    },
+    {
+      "name": "Prosper M.",
+      "role_en": "CTO, AgriTwin",
+      "role_fr": "CTO, AgriTwin",
+      "comment_en": "Top-notch code quality and architecture. Nehm is reliable and highly skilled on AWS and GCP.",
+      "comment_fr": "La qualité du code et l'architecture proposée sont top. Nehm est quelqu'un de fiable et très compétent sur AWS et GCP.",
+      "photo": "/images/avatar3.png",
+      "rating": 4.5
+    },
+    {
+      "name": "Christelle A.",
+      "role_en": "CEO, KiFood",
+      "role_fr": "CEO, KiFood",
+      "comment_en": "Exceptional collaboration. Nehm understood our needs and delivered a mobile app that exceeded our expectations.",
+      "comment_fr": "Collaboration exceptionnelle. Nehm a su comprendre nos besoins et livrer une application mobile qui a dépassé nos attentes.",
+      "photo": "/images/avatar4.png",
+      "rating": 5
+    },
+    {
+      "name": "Didier T.",
+      "role_en": "Financial Director, SpeedX",
+      "role_fr": "Directeur Financier, SpeedX",
+      "comment_en": "A true problem-solver. He automated our entire financial process with an intuitive interface. Highly recommended.",
+      "comment_fr": "Un vrai problem-solver. Il a automatisé tout notre processus financier avec une interface intuitive. Je recommande vivement.",
+      "photo": "/images/avatar5.png",
+      "rating": 5
+    },
+    {
+      "name": "Marie-Louise P.",
+      "role_en": "Manager, Patisserie Maison Elysée",
+      "role_fr": "Gérante, Patisserie Maison Elysée",
+      "comment_en": "Nehm built our site from A to Z with a professional and modern result. His full-stack ability is rare.",
+      "comment_fr": "Nehm a construit notre site de A à Z avec un résultat professionnel et moderne. Sa capacité à gérer le full-stack est rare.",
+      "photo": "/images/avatar6.png",
+      "rating": 4.5
+    }
+  ]
+}

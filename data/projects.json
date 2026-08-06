@@ -1,0 +1,139 @@
+{
+  "projects": [
+    {
+      "title": "SIMScore",
+      "description_en": "Student Information Management System Core — A game-changing platform for the academics process in the Health Science Faculty. Public platform built for scalable student management.",
+      "description_fr": "Student Information Management System Core — Plateforme révolutionnaire pour le processus académique de la Faculté des Sciences de la Santé. Plateforme publique pour la gestion des étudiants.",
+      "tags": ["Python", "Django 5", "Public"],
+      "image": "/images/roject13.png",
+      "demo_url": "https://simscore.uac.bj/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "PEC",
+      "description_en": "Performance Expertise Consulting — A web portfolio for a consulting firm specializing in sport and pedagogy expertise.",
+      "description_fr": "Performance Expertise Consulting — Portfolio web pour une société de conseil spécialisée en expertise sportive et pédagogique.",
+      "tags": ["JavaScript", "Portfolio", "Consulting"],
+      "image": "/images/project14.png",
+      "demo_url": "https://perfomanace-expertise-consulting.vercel.app/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "WA XLE AHI",
+      "description_en": "Your shopping delivered to your home 24/7. Premium service for seniors, people with reduced mobility and everyone who needs help. Order simply, we deliver where you are.",
+      "description_fr": "Vos courses à domicile 24h/24 • 7j/7. Service premium pour seniors, personnes à mobilité réduite et tous ceux qui ont besoin d'aide. Commandez simplement, nous livrons où vous êtes.",
+      "tags": ["E-commerce", "Delivery", "React"],
+      "image": "/images/project10.png",
+      "demo_url": "https://waxleahi-m8n4.vercel.app/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "NeuroAlert Africa",
+      "description_en": "The Power of AI. Zero Internet Required. The first AI-powered stroke triage that works without internet. Bring the power of Google Gemini to any phone, anywhere, on any network.",
+      "description_fr": "La Puissance de l'IA. Zéro Internet Requis. Le premier triage d'AVC alimenté par l'IA qui fonctionne sans internet. Apportez la puissance de Google Gemini sur n'importe quel téléphone, n'importe où, sur n'importe quel réseau.",
+      "tags": ["AI/ML", "Google Gemini", "Healthcare", "Offline-First"],
+      "image": "/images/project11.png",
+      "demo_url": "https://www.naaf.online/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "Teddy Gandigbe",
+      "description_en": "Journalist & Media Consultant professional website. A platform dedicated to media expertise and journalism consulting services.",
+      "description_fr": "Site professionnel de Journaliste & Consultant Médias. Une plateforme dédiée à l'expertise médiatique et aux services de conseil en journalisme.",
+      "tags": ["Portfolio", "Next.js", "Professional"],
+      "image": "/images/project12.png",
+      "demo_url": "https://teddygandigbe.vercel.app/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "Patisserie Maison Elysée",
+      "description_en": "A full Backend-Frontend website for a French backery & ice cream company.",
+      "description_fr": "Un site complet Backend-Frontend pour une patisserie et glacier française.",
+      "tags": ["Laravel"],
+      "image": "/images/project0.png",
+      "demo_url": "https://patisseriemaisonelysee.com/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "NovaTech Vision",
+      "description_en": "A full Backend-Frontend website for NovaTech Vision, a company that specializes in IT solutions.",
+      "description_fr": "Un site complet Backend-Frontend pour NovaTech Vision, une entreprise spécialisée dans les solutions informatiques.",
+      "tags": ["Vue Js", "Laravel"],
+      "image": "/images/project1.png",
+      "demo_url": "https://novatechvision.com/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "AgriTwin",
+      "description_en": "AgriTwin a digital agriculture platform, PWA available online that transforms every farm into a digital twin intelligent, usable even on a simple smartphone. More productive, sustainable and resilient agriculture thanks to satellite data.",
+      "description_fr": "AgriTwin une plateforme d'agriculture numérique, PWA disponible en ligne qui transforme chaque ferme en un jumeau numérique intelligent, utilisable même sur un simple smartphone. Une agriculture plus productive, durable et résiliente grâce aux données satellitaires.",
+      "tags": ["React.Js", "FastAPI", "MongoDB", "Machine Learning"],
+      "image": "/images/PRoject2.png",
+      "demo_url": "https://agritwin.vercel.app/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "SpeedX",
+      "description_en": "Creation of an application to facilitate invoice entry for the financial sector. Automating financial flows, tracking transactions and generating accurate reports for users. Implementation of an intuitive interface to simplify accounting operations and improve efficiency.",
+      "description_fr": "Création d'une application pour faciliter la saisie des factures dans le secteur financier. Automatisation des flux financiers, suivi des transactions et génération de rapports précis pour les utilisateurs. Mise en place d'une interface intuitive pour simplifier les opérations comptables et améliorer l'efficacité.",
+      "tags": ["Next.js", "FastAPI", "Sqlite"],
+      "image": "/images/speedX.png",
+      "demo_url": "https://speedx-eta.vercel.app/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "AI4BMI",
+      "description_en": "A complete platform for managing industrial equipment and e-commerce for the Bénin Moto Industry (BMI) factory.",
+      "description_fr": "Une plateforme complète pour la gestion des équipements industriels et le commerce électronique pour l'usine Bénin Moto Industry (BMI).",
+      "tags": ["Laravel", "Flutter"],
+      "image": "/images/project4.png",
+      "demo_url": "https://ai4bmi.cabinet-xaviertermeau.com/",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "CampusConnect",
+      "description_en": "The university platform that makes academic life easier. University announcements, room reservations, collaborative workspace.",
+      "description_fr": "La plateforme universitaire qui facilite la vie académique. Annonces universitaires, réservation de salles, espace de travail collaboratif.",
+      "tags": ["Laravel", "mysql"],
+      "image": "/images/project5.png",
+      "demo_url": "https://github.com/Nehm12/CampusConnect",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "BMI Shop",
+      "description_en": "Mobile store for auto & motorcycle parts. Complete journey: catalog, shopping cart, checkout, and Mobile Money payment (FedaPay).",
+      "description_fr": "Boutique mobile pour pièces auto et moto. Parcours complet : catalogue, panier, caisse, et paiement Mobile Money (FedaPay).",
+      "tags": ["Flutter", "Laravel", "mysql"],
+      "image": "/images/project6.png",
+      "demo_url": "https://github.com/Nehm12/CampusConnect",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "KiFood Mobile",
+      "description_en": "Mobile App for food delivery in Bénin.",
+      "description_fr": "Application mobile pour la livraison de repas au Bénin.",
+      "tags": ["Flutter", "Laravel", "mysql"],
+      "image": "/images/project7.png",
+      "demo_url": "https://github.com/Nehm12/CampusConnect",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "High School LTC Manage APP",
+      "description_en": "High School LTC Manage APP is a full web application Backend-Frontend for managing high school students, teachers, and courses.",
+      "description_fr": "High School LTC Manage APP est une application web complète Backend-Frontend pour gérer les élèves, les enseignants et les cours au lycée.",
+      "tags": ["Laravel", "mysql"],
+      "image": "/images/project8.png",
+      "demo_url": "https://github.com/Nehm12/LTC",
+      "code_url": "https://github.com/"
+    },
+    {
+      "title": "House of Transformation",
+      "description_en": "House of Transformation is a spiritual community website",
+      "description_fr": "House of Transformation est un site de communauté spirituelle",
+      "tags": ["Laravel", "mysql"],
+      "image": "/images/project9.png",
+      "demo_url": "https://maisondelatransformation.netlify.app/",
+      "code_url": "https://github.com/"
+    }
+  ]
+}

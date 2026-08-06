@@ -235,6 +235,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Ensure language toggle has proper title
         langToggleBtn.setAttribute('aria-label', lang === 'en' ? 'Passer en Français' : 'Switch to English');
+
+        // Notify dynamic content (projects, testimonials) to re-render
+        document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang } }));
     }
 
     // Set initial language without overriding raw HTML initially (unless it differs)

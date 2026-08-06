@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://nehmportfolio.netlify.app
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    description: "Manage the projects displayed in the portfolio"
+    files:
+      - name: "projects"
+        label: "Projects List"
+        file: "data/projects.json"
+        format: "json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description (English)", name: "description_en", widget: "text" }
+              - { label: "Description (French)", name: "description_fr", widget: "text" }
+              - { label: "Tags", name: "tags", widget: "list" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Demo Link", name: "demo_url", widget: "string" }
+              - { label: "Code Link", name: "code_url", widget: "string" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    label_singular: "Testimonial"
+    description: "Manage client testimonials"
+    files:
+      - name: "testimonials"
+        label: "Testimonials List"
+        file: "data/testimonials.json"
+        format: "json"
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role (English)", name: "role_en", widget: "string" }
+              - { label: "Role (French)", name: "role_fr", widget: "string" }
+              - { label: "Comment (English)", name: "comment_en", widget: "text" }
+              - { label: "Comment (French)", name: "comment_fr", widget: "text" }
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Rating", name: "rating", widget: "select", options: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5] }
