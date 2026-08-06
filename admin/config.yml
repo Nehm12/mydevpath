@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
-site_url: https://nehmportfolio.netlify.app
+site_url: https://www.nehm.online
 
 collections:
   - name: "projects"
