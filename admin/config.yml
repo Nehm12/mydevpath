@@ -56,3 +56,97 @@ collections:
               - { label: "Comment (French)", name: "comment_fr", widget: "text" }
               - { label: "Photo", name: "photo", widget: "image" }
               - { label: "Rating", name: "rating", widget: "select", options: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5] }
+
+  - name: "services"
+    label: "Services"
+    label_singular: "Service"
+    description: "Manage the services displayed in the portfolio"
+    files:
+      - name: "services"
+        label: "Services List"
+        file: "data/services.json"
+        format: "json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Icon (Font Awesome class)", name: "icon", widget: "string", hint: "ex: fas fa-server, fas fa-database, fas fa-microchip, far fa-comment-dots, fas fa-mobile" }
+              - { label: "Title (English)", name: "title_en", widget: "string" }
+              - { label: "Title (French)", name: "title_fr", widget: "string" }
+              - { label: "Description (English)", name: "desc_en", widget: "text" }
+              - { label: "Description (French)", name: "desc_fr", widget: "text" }
+              - { label: "Tags", name: "tags", widget: "list" }
+
+  - name: "skills"
+    label: "Skills"
+    label_singular: "Skill"
+    description: "Manage skill categories and levels"
+    files:
+      - name: "skills"
+        label: "Skills List"
+        file: "data/skills.json"
+        format: "json"
+        fields:
+          - label: "Skill Categories"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Category Title (English)", name: "title_en", widget: "string" }
+              - { label: "Category Title (French)", name: "title_fr", widget: "string" }
+              - label: "Skills"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Skill Name", name: "name", widget: "string" }
+                  - { label: "Level (%)", name: "level", widget: "number", value_type: "int", min: 0, max: 100 }
+
+  - name: "social"
+    label: "Social Links"
+    description: "Manage the social links in the hero and footer"
+    files:
+      - name: "social"
+        label: "Social Links List"
+        file: "data/social.json"
+        format: "json"
+        fields:
+          - label: "Social Links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Icon (Font Awesome class)", name: "icon", widget: "string", hint: "ex: fab fa-github, fab fa-linkedin-in, far fa-envelope, fab fa-telegram, fab fa-facebook" }
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string", hint: "ex: https://github.com/Nehm12" }
+
+  - name: "contact"
+    label: "Contact Info"
+    description: "Manage contact information (location, phone, email)"
+    files:
+      - name: "contact"
+        label: "Contact Information"
+        file: "data/contact.json"
+        format: "json"
+        fields:
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+
+  - name: "cv"
+    label: "CV"
+    description: "Manage the downloadable CV file"
+    files:
+      - name: "cv"
+        label: "CV Settings"
+        file: "data/cv.json"
+        format: "json"
+        fields:
+          - label: "CV"
+            name: "cv"
+            widget: "object"
+            fields:
+              - { label: "CV File (PDF)", name: "file", widget: "file", hint: "Upload a new PDF here" }
+              - { label: "Display Name", name: "name", widget: "string" }

@@ -91,10 +91,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=1.5">
+    <link rel="stylesheet" href="style.css?v=1.6">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/nehm.jpeg">
     <link rel="manifest" href="manifest.webmanifest">
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 
 <body>
@@ -136,11 +137,8 @@
                     <a href="https://nehmportfolio.netlify.app/" target="_blank" data-i18n="btn-entrepreneur"
                         class="btn-outline">Entrepreneurship Path</a>
                 </div>
-                <div class="hero-social">
-                    <a href="https://github.com/Nehm12" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://t.me/Nehm00" target="_blank"><i class="fab fa-telegram"></i></a>
-                    <a href="#contact"><i class="far fa-envelope"></i></a>
-                    <a href="https://www.facebook.com/nehm.hounga" target="_blank"><i class="fab fa-facebook"></i></a>
+                <div class="hero-social" id="hero-social">
+                    <!-- Rendered dynamically from data/social.json -->
                 </div>
             </div>
             <div class="hero-image-wrapper">
@@ -244,89 +242,8 @@
     <!-- Services Section -->
     <section class="services-section" id="services">
         <div class="container">
-            <div class="services-grid">
-
-                <!-- Service 1 -->
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-server"></i></div>
-                    <div class="service-content">
-                        <h3 class="service-title" data-i18n="services-be">Backend Engineering</h3>
-                        <p class="service-desc" data-i18n="services-be-desc">Designing robust and scalable server-side
-                            architectures</p>
-                        <div class="service-tags">
-                            <span class="tag">Laravel</span>
-                            <span class="tag">Django</span>
-                            <span class="tag">FastAPI</span>
-                            <span class="tag">SpringBoot</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-database"></i></div>
-                    <div class="service-content">
-                        <h3 class="service-title" data-i18n="services-de">Data Engineering</h3>
-                        <p class="service-desc" data-i18n="services-de-desc">Designing and optimizing database
-                            architectures</p>
-                        <div class="service-tags">
-                            <span class="tag">MongoDB</span>
-                            <span class="tag">Oracle</span>
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">mysql</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-microchip"></i></div>
-                    <div class="service-content">
-                        <h3 class="service-title" data-i18n="services-ca">Cloud Architecture</h3>
-                        <p class="service-desc" data-i18n="services-ca-desc">Deploying and managing cloud infrastructure
-                        </p>
-                        <div class="service-tags">
-                            <span class="tag">AWS</span>
-                            <span class="tag">Google Cloud</span>
-                            <span class="tag">Docker</span>
-                            <span class="tag">Kubernetes</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="service-card">
-                    <div class="service-icon"><i class="far fa-comment-dots"></i></div>
-                    <div class="service-content">
-                        <h3 class="service-title" data-i18n="services-pe">Prompt Engineering</h3>
-                        <p class="service-desc" data-i18n="services-pe-desc">Crafting effective prompts for AI models to
-                            achieve desired outcomes</p>
-                        <div class="service-tags">
-                            <span class="tag">GPT-3</span>
-                            <span class="tag">ChatGPT</span>
-                            <span class="tag">Prompt Design</span>
-                            <span class="tag">NLP</span>
-                            <span class="tag">Gemini</span>
-                            <span class="tag">etc..</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="service-card">
-                    <div class="service-icon"><i class="fas fa-mobile"></i></div>
-                    <div class="service-content">
-                        <h3 class="service-title" data-i18n="services-md">Mobile Development </h3>
-                        <p class="service-desc" data-i18n="services-md-desc">Building mobile applications for iOS and
-                            Android</p>
-                        <div class="service-tags">
-                            <span class="tag">Flutter</span>
-                            <span class="tag">React Native</span>
-                            <span class="tag">Swift</span>
-                            <span class="tag">Kotlin</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="services-grid" id="services-grid">
+                <!-- Rendered dynamically from data/services.json -->
             </div>
         </div>
     </section>
@@ -334,249 +251,8 @@
     <section class="skills-section" id="skills">
         <div class="container">
             <h2 class="section-title" data-i18n="skills-title">Skills & Expertise</h2>
-            <div class="skills-grid">
-
-                <!-- Programming Languages -->
-                <div class="skill-card">
-                    <h3 class="skill-card-title" data-i18n="skills-pl">Programming Languages</h3>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Java</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Javascript</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Php</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Python</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>C++</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>C</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Frameworks -->
-                <div class="skill-card">
-                    <h3 class="skill-card-title" data-i18n="skills-fw">Frameworks</h3>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Laravel</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>SpringBoot</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>React</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>FastAPI</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Django</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 70%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tools & Platforms -->
-                <div class="skill-card">
-                    <h3 class="skill-card-title" data-i18n="skills-tp">Tools & Platforms</h3>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Git</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Linux</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 95%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Docker</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>AWS</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Google Cloud Platform</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Databases -->
-                <div class="skill-card">
-                    <h3 class="skill-card-title" data-i18n="skills-db">Databases</h3>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>MongoDB</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>MySQL</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Redis</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>PostgreSQL</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Other -->
-                <div class="skill-card">
-                    <h3 class="skill-card-title" data-i18n="skills-ot">Other</h3>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Docker</span>
-                            <span>90%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 90%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Q&A Testing</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>DevOps</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span>Agile Scrum</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="skill-bar-bg">
-                            <div class="skill-bar-fill" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="skills-grid" id="skills-grid">
+                <!-- Rendered dynamically from data/skills.json -->
             </div>
         </div>
     </section>
@@ -629,17 +305,8 @@
 
                 <div class="contact-info-container">
                     <h3 class="contact-info-title" data-i18n="contact-info-title">Contact Information</h3>
-                    <div class="contact-info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Cotonou, Littoral, Republic of Benin</span>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>+229 0153538663</span>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="far fa-envelope"></i>
-                        <span>exaucehounga@yahoo.com</span>
+                    <div id="contact-info">
+                        <!-- Rendered dynamically from data/contact.json -->
                     </div>
                 </div>
 
@@ -668,12 +335,12 @@
     <div class="doc-overlay" id="doc-modal">
         <div class="doc-window">
             <div class="doc-header">
-                <h3><i class="far fa-file-pdf"></i> Nehm_CV.pdf</h3>
+                <h3><i class="far fa-file-pdf"></i> <span id="cv-title">Nehm_CV.pdf</span></h3>
                 <button class="doc-close-btn" id="btn-close-doc"><i class="fas fa-times"></i></button>
             </div>
             <div class="doc-body" style="padding: 0; display: flex; flex-direction: column; height: 100%;">
                 <div class="doc-preview-iframe" style="flex-grow: 1; width: 100%; overflow: hidden;">
-                    <iframe src="Nehm_CV.pdf#toolbar=0" style="width: 100%; height: 100%; border: none;"
+                    <iframe id="cv-iframe" src="Nehm_CV.pdf#toolbar=0" style="width: 100%; height: 100%; border: none;"
                         title="Resume Preview">
                         <p>It appears your browser does not support PDFs. <a href="Nehm_CV.pdf" download>Download the
                                 PDF</a> instead.</p>
@@ -681,7 +348,8 @@
                 </div>
                 <div class="doc-actions"
                     style="padding: 15px; text-align: center; border-top: 1px solid var(--border-color); background-color: var(--bg-white);">
-                    <a href="Nehm_CV.pdf" class="btn-primary" download><i class="fas fa-download"></i> Download Full
+                    <a href="Nehm_CV.pdf" id="cv-download-link" class="btn-primary" download><i
+                            class="fas fa-download"></i> Download Full
                         PDF</a>
                 </div>
             </div>
@@ -697,14 +365,8 @@
                     <h3 class="footer-name">Nehm HOUNGA</h3>
                     <p class="footer-roles" data-i18n="footer-roles">Software Engineer | Solutions Architect |
                         Consultant</p>
-                    <div class="footer-social">
-                        <a href="https://github.com/Nehm12" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/nehm-hounga-66225b2a8/" target="_blank"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a href=mailto:exaucehounga@yahoo.com><i class="far fa-envelope"></i></a>
-                        <a href="https://t.me/Nehm00" target="_blank"><i class="fab fa-telegram"></i></a>
-                        <a href="https://www.facebook.com/nehm.hounga" target="_blank"><i
-                                class="fab fa-facebook"></i></a>
+                    <div class="footer-social" id="footer-social">
+                        <!-- Rendered dynamically from data/social.json -->
                     </div>
                 </div>
 
@@ -720,10 +382,8 @@
 
                 <div class="footer-col contact-col">
                     <h4 class="footer-heading" data-i18n="footer-contact">Contact</h4>
-                    <ul class="footer-contact-list">
-                        <li>Cotonou, Littoral</li>
-                        <li>Republic of Benin</li>
-                        <li>exaucehounga@yahoo.com</li>
+                    <ul class="footer-contact-list" id="footer-contact-list">
+                        <!-- Rendered dynamically from data/contact.json -->
                     </ul>
                 </div>
 

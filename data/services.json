@@ -1,0 +1,44 @@
+{
+  "services": [
+    {
+      "icon": "fas fa-server",
+      "title_en": "Backend Engineering",
+      "title_fr": "Ingénierie Backend",
+      "desc_en": "Designing robust and scalable server-side architectures",
+      "desc_fr": "Conception d'architectures côté serveur robustes et évolutives",
+      "tags": ["Laravel", "Django", "FastAPI", "SpringBoot"]
+    },
+    {
+      "icon": "fas fa-database",
+      "title_en": "Data Engineering",
+      "title_fr": "Ingénierie des Données",
+      "desc_en": "Designing and optimizing database architectures",
+      "desc_fr": "Conception et optimisation d'architectures de bases de données",
+      "tags": ["MongoDB", "Oracle", "PostgreSQL", "mysql"]
+    },
+    {
+      "icon": "fas fa-microchip",
+      "title_en": "Cloud Architecture",
+      "title_fr": "Architecture Cloud",
+      "desc_en": "Deploying and managing cloud infrastructure",
+      "desc_fr": "Déploiement et gestion d'infrastructures cloud",
+      "tags": ["AWS", "Google Cloud", "Docker", "Kubernetes"]
+    },
+    {
+      "icon": "far fa-comment-dots",
+      "title_en": "Prompt Engineering",
+      "title_fr": "Ingénierie de Prompt",
+      "desc_en": "Crafting effective prompts for AI models to achieve desired outcomes",
+      "desc_fr": "Création de prompts efficaces pour les modèles d'IA afin d'atteindre les résultats souhaités",
+      "tags": ["GPT-3", "ChatGPT", "Prompt Design", "NLP", "Gemini", "etc.."]
+    },
+    {
+      "icon": "fas fa-mobile",
+      "title_en": "Mobile Development",
+      "title_fr": "Développement Mobile",
+      "desc_en": "Building mobile applications for iOS and Android",
+      "desc_fr": "Création d'applications mobiles pour iOS et Android",
+      "tags": ["Flutter", "React Native", "Swift", "Kotlin"]
+    }
+  ]
+}

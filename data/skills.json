@@ -1,0 +1,58 @@
+{
+  "skills": [
+    {
+      "title_en": "Programming Languages",
+      "title_fr": "Langages de Programmation",
+      "items": [
+        { "name": "Java", "level": 90 },
+        { "name": "Javascript", "level": 80 },
+        { "name": "Php", "level": 90 },
+        { "name": "Python", "level": 80 },
+        { "name": "C++", "level": 75 },
+        { "name": "C", "level": 70 }
+      ]
+    },
+    {
+      "title_en": "Frameworks",
+      "title_fr": "Frameworks",
+      "items": [
+        { "name": "Laravel", "level": 90 },
+        { "name": "SpringBoot", "level": 85 },
+        { "name": "React", "level": 80 },
+        { "name": "FastAPI", "level": 75 },
+        { "name": "Django", "level": 70 }
+      ]
+    },
+    {
+      "title_en": "Tools & Platforms",
+      "title_fr": "Outils & Plateformes",
+      "items": [
+        { "name": "Git", "level": 90 },
+        { "name": "Linux", "level": 95 },
+        { "name": "Docker", "level": 80 },
+        { "name": "AWS", "level": 80 },
+        { "name": "Google Cloud Platform", "level": 80 }
+      ]
+    },
+    {
+      "title_en": "Databases",
+      "title_fr": "Bases de Données",
+      "items": [
+        { "name": "MongoDB", "level": 90 },
+        { "name": "MySQL", "level": 85 },
+        { "name": "Redis", "level": 80 },
+        { "name": "PostgreSQL", "level": 75 }
+      ]
+    },
+    {
+      "title_en": "Other",
+      "title_fr": "Autres",
+      "items": [
+        { "name": "Docker", "level": 90 },
+        { "name": "Q&A Testing", "level": 85 },
+        { "name": "DevOps", "level": 80 },
+        { "name": "Agile Scrum", "level": 75 }
+      ]
+    }
+  ]
+}

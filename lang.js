@@ -60,6 +60,9 @@ const translations = {
         "label-msg": "Message",
         "btn-send": "Send Message",
         "contact-info-title": "Contact Information",
+        "form-sending": "Sending your message...",
+        "form-success": "Message sent! I will get back to you as soon as possible.",
+        "form-error": "An error occurred. Please try again or email me directly.",
 
         // Footer
         "footer-roles": "Software Engineer | IT Solutions Architect | Consultant",
@@ -162,6 +165,9 @@ const translations = {
         "label-msg": "Message",
         "btn-send": "Envoyer le Message",
         "contact-info-title": "Informations de Contact",
+        "form-sending": "Envoi de votre message...",
+        "form-success": "Message envoyé ! Je vous répondrai dès que possible.",
+        "form-error": "Une erreur est survenue. Réessayez ou écrivez-moi directement.",
 
         // Footer
         "footer-roles": "Ingénieur Développeur Logiciel | Architecte Solutions IT | Consultant",
